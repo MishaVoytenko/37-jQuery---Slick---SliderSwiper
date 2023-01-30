@@ -181,6 +181,7 @@ ul {
   height: 770px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .arrivals h2 {
@@ -195,12 +196,11 @@ ul {
 }
 
 .slider {
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 50px auto 0;
   position: relative;
 }
 
@@ -215,7 +215,7 @@ ul {
   background-image: url(img/prev.svg);
   width: 40px;
   height: 74px;
-  left: 15px;
+  left: -60px;
   background-size: contain;
   background-position: center;
 }
@@ -225,7 +225,7 @@ ul {
   background-image: url(img/next.svg);
   width: 40px;
   height: 74px;
-  right: 15px;
+  right: -45px;
   background-size: contain;
   background-position: center;
 }
@@ -259,7 +259,9 @@ ul {
   height: 437px;
   width: 224px;
   border: solid 1px #f8f1ea;
-  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .partners {
