@@ -385,3 +385,13 @@ ul {
   background-image: url(img/next2.svg);
   cursor: url(img/pointer.svg), pointer;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 0;
+}
+
+.footer {
+  height: 350px;
+  background-color: #35312d;
+}
