@@ -13,4 +13,14 @@ $(document).on('ready', function () {
     slidesToScroll: 1,
     arrows: true,
   });
+  $('.slider-partners').slick({
+    // dots: true,
+    infinite: true,
+    slidesToShow: 9,
+    slidesToScroll: 1,
+    arrows: true,
+  });
 })
+
+
+

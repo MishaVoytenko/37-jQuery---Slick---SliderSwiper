@@ -307,9 +307,20 @@ ul {
   text-align: center;
   color: #000000;
 }
-.partners {
+
+.partners-background {
   height: 290px;
   background-color: #f8f1ea;
+}
+
+.partners {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px auto 0;
+  position: relative;
+  padding-top: 70px;
 }
 
 .slider-item img {
@@ -325,4 +336,52 @@ ul {
   line-height: 20px;
   text-align: center;
   color: #000000;
+}
+
+.partners h2 {
+  margin-bottom: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.slider-partners {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slider-partners .slick-arrow.slick-prev {
+  background-repeat: no-repeat;
+  background-image: url(img/prev.svg);
+  width: 40px;
+  height: 74px;
+  left: -60px;
+  background-size: contain;
+  background-position: center;
+}
+
+.slider-partners .slick-arrow.slick-next {
+  background-repeat: no-repeat;
+  background-image: url(img/next.svg);
+  width: 40px;
+  height: 74px;
+  right: -45px;
+  background-size: contain;
+  background-position: center;
+}
+
+.slider-partners .slick-arrow.slick-prev:hover {
+  background-image: url(img/prev2.svg);
+  cursor: url(img/pointer.svg), pointer;
+}
+
+.slider-partners .slick-arrow.slick-next:hover {
+  background-image: url(img/next2.svg);
+  cursor: url(img/pointer.svg), pointer;
 }
