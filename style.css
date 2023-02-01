@@ -397,6 +397,7 @@ ul {
 }
 
 .footer {
+  position: relative;
   display: flex;
   justify-content: space-between;
   padding-left: 130px;
@@ -429,7 +430,7 @@ ul {
   align-items: baseline;
 }
 
-.contact div {
+.contact div:first-child {
   margin-top: 70px;
   margin-bottom: 52px;
   font-family: "Montserrat";
@@ -440,11 +441,37 @@ ul {
   color: #f8f1ea;
 }
 
+.contact div:last-child {
+  margin-top: 36px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  color: #f8f1ea;
+}
 .social {
   display: flex;
   gap: 35px;
+  padding: 0;
+  height: 32px;
 }
 
 .social li a svg path:hover {
   stroke: #f16a50;
+}
+
+.social li a svg:hover {
+  cursor: url(img/pointer-white.svg), pointer;
+}
+
+.footer > div:last-child {
+  position: absolute;
+  bottom: 0;
+  left: 630px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #f8f1ea;
 }
