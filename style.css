@@ -468,7 +468,8 @@ ul {
 .footer > div:last-child {
   position: absolute;
   bottom: 0;
-  left: 630px;
+  left: 50%;
+  transform: translate(-50%);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;

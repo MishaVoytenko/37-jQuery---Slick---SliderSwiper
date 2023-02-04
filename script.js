@@ -4,7 +4,9 @@ $(document).on('ready', function () {
     infinite: true,
     speed: 300,
     slidesToShow: 1,
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    arrows: false,
+
   });
   $('.slider').slick({
     // dots: true,
